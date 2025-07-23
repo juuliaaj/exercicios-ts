@@ -8,12 +8,20 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@types/express": "^5.0.3",
     "typescript": "^5.8.3"
   },
   "dependencies": {
     "express": "^5.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juuliaaj/exercicios-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juuliaaj/exercicios-ts/issues"
+  },
+  "homepage": "https://github.com/juuliaaj/exercicios-ts#readme",
+  "description": ""
 }

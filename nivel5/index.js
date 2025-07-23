@@ -1,12 +1,10 @@
 // Função genérica
-function retornarPrimeiro<T>(arr: T[]): T {
+function retornarPrimeiro(arr) {
     return arr[0];
 }
-
 // Teste com números
-const numeros = [1, 2, 3];
+var numeros = [1, 2, 3];
 console.log(retornarPrimeiro(numeros)); // Saída esperada: 1
-
 // Teste com strings
-const palavras = ['a', 'b', 'c'];
+var palavras = ['a', 'b', 'c'];
 console.log(retornarPrimeiro(palavras)); // Saída esperada: 'a'

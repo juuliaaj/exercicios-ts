@@ -14,9 +14,9 @@ generator client {
 }
 
 model Livro {
-  id            Int     @id @default(autoincrement())
-  titulo        String
-  autor         String
-  anoPublicacao Int
-  disponivel    Boolean @default(true)
+  id             Int     @id @default(autoincrement())
+  titulo         String
+  autor          String
+  anoPublicacao  Int
+  disponivel     Boolean @default(true)
 }
